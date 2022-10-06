@@ -1,0 +1,14 @@
+public class CheckingAccount extends Account
+{
+  static numberOfAccount = 0;
+  public CheckingAccount()
+  {
+    //default
+    numberOfAccount++;
+  }
+  public CheckingAccount(double b)
+  {
+    super(b);
+    numberOfAccount++;
+  }
+}

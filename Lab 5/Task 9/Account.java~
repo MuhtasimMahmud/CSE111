@@ -1,0 +1,36 @@
+public class Account
+{ 
+  public static interestRate = 5;
+  public String name = "Default Account";
+  public double balance =0.0;
+  
+  
+  public String nameKi()
+  {
+    return this.name;
+  }
+  public void nameBoshao(String name)
+  {
+    this.name = name;
+  }
+  public double balanceKi()
+  {
+    return balance;
+  }
+  public void balanceBoshao(double balance)
+  {
+    this.balance = balance;
+  }
+  public void withdraw(int x)
+  {
+    this.balance = this.balance-x;
+    if(this.balance < 101)
+    {
+      System.out.println("Withdraw successful !"+this.balance);
+    }
+    else
+    {
+      System.out.println("The account balance after deducting withdraw amount is equal to or less than minimum. Cannot withdraw");
+    }
+  }
+}

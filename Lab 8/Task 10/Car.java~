@@ -1,0 +1,18 @@
+public class Car 
+{
+  public int x = 0;
+  private int year = 0;
+  public Car(int i)
+  {
+    this.year = i;
+    x++;
+  }
+  public int getYear()
+  {
+    return year;
+  }
+  public static int getObjectCount()
+  {
+    return x;
+  }
+}

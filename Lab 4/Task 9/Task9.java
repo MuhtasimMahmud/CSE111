@@ -1,0 +1,55 @@
+public class Task9
+{
+  public static void main(String [] args)
+  {
+    BankAccount acc1 = new BankAccount();
+    BankAccount acc2 = new BankAccount();
+    BankAccount acc3 = new BankAccount();
+    
+    
+    
+    acc1.setName("Mahmud");
+    acc1.setAddress("Mirpur");
+    acc1.setAccountId("1");
+    acc1.setBalance(1000.0);
+    
+    
+    System.out.println(acc1.getName());
+    System.out.println(acc1.getAddress());
+    System.out.println(acc1.getAccountId());
+    System.out.println(acc1.getBalance());
+    System.out.println(acc1.addInterest());
+    
+    
+    System.out.println("\n\n");
+    
+    
+    acc2.setName("Muhtasim");
+    acc2.setAddress("Badda");
+    acc2.setAccountId("2");
+    acc2.setBalance(200.0);
+    
+    
+    System.out.println(acc2.getName());
+    System.out.println(acc2.getAddress());
+    System.out.println(acc2.getAccountId());
+    System.out.println(acc2.getBalance());
+    System.out.println(acc2.addInterest());
+    
+    
+    System.out.println("\n\n");
+    
+    
+    acc3.setName("John");
+    acc3.setAddress("UK");
+    acc3.setAccountId("3");
+    acc3.setBalance(100.0);
+    
+    
+    System.out.println(acc3.getName());
+    System.out.println(acc3.getAddress());
+    System.out.println(acc3.getAccountId());
+    System.out.println(acc3.getBalance());
+    System.out.println(acc3.addInterest());
+  }
+}

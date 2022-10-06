@@ -1,0 +1,11 @@
+import java.util.Scanner;
+pulic class Task1
+{
+  public static void main(Strig [] args)
+  {
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Please give me a word");
+    String word = sc.nextLine();
+    System.out.println(word.length());
+  }
+}

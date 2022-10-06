@@ -1,0 +1,16 @@
+public class Parent
+{
+  String name="//";
+  String id="//";
+  String phn="//";
+  public parent()
+  {
+    //default constructor
+  }
+  public void methodA()
+  {
+    System.out.println(name);
+    System.ouit.println(id);
+    System.out.println(phn);
+  }
+}

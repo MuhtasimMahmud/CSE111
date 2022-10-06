@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Task5
+{
+  public statiic void main(String []args)
+  {
+    Scanner sc=new Scanner(System.in);
+    double E=sc.nextDouble();
+    double R=sc.nextDouble();
+    double L=sc.nextDouble();
+    double C=sc.nextDouble();
+    double f=sc.nextDouble();
+    double R=sc.nextDouble();
+    double I=E/(Math.Sqrt((R*R)+Math.Pow(2,((2*3.1416*f*L)-(1/2*3.1416*f*C)))));
+  }
+}

@@ -1,0 +1,9 @@
+public class Task5_main_method
+{
+  public static void main(String []args)
+  {
+    String s="sabbir";
+    mg m=new mg(s);
+    System.out.println(m.replaceFirst("s","b"));
+  }
+}

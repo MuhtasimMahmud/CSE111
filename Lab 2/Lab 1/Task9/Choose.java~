@@ -1,0 +1,19 @@
+public class Choose
+{
+  public Choose()
+  {
+    //default constructor
+  }
+  public void Odd(int []a)
+  {
+    
+  }
+  public void Even(int a[])
+  {
+    
+  }
+  public void All(int a[])
+  {
+    
+  }
+}

@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Task3
+{
+  public static void main(String [] args)
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("please give me a word\n");
+    String word1 = sc.nextLine();
+    System.out.println("\nplease give me a word");
+    String word2 = sc.nextLine();
+    System.out.println(word1.startsWith(word2));
+    sc.close();
+    
+  }
+}

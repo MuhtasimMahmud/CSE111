@@ -1,0 +1,15 @@
+public class Book
+{
+  public String title ="";
+  public String author ="";
+  public double price =0.0;
+  
+  public Book(String title , String author , double price )
+  {
+    
+  }
+  public String toStrig()
+  {
+    return "Title :"+title +"\n"+"Autjor's name :"+author+"\n"+"Price :"+price;
+  }
+}

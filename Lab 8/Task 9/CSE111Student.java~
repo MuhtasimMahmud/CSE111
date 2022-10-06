@@ -1,0 +1,8 @@
+public class CSE111Student extends Student
+{
+  public CSE111Student()
+  {
+    super();
+    super.msg = "I love java programming";
+  }
+}

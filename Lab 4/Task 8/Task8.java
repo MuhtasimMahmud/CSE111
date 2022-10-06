@@ -1,0 +1,51 @@
+public class Task8
+{
+  public static void main(String []args)
+  {
+    Student s1 = new Student();
+    Student s2 = new Student();
+    Student s3 = new Student();
+    
+    
+    s1.setName("John");
+    s1.setId("19101615");
+    s1.setAddress("Badda");
+    s1.setCgpa(3.67);
+    
+    
+    System.out.println(s1.getName());
+    System.out.println(s1.getId());
+    System.out.println(s1.getAddress());
+    System.out.println(s1.getCgpa());
+    
+    
+    System.out.println("\n\n");
+    
+    
+    s2.setName("Mike");
+    s2.setId("18191812");
+    s2.setAddress("Banani");
+    s2.setCgpa(3.50);
+    
+    
+    System.out.println(s2.getName());
+    System.out.println(s2.getId());
+    System.out.println(s2.getAddress());
+    System.out.println(s2.getCgpa());
+    
+    
+    System.out.println("\n\n");
+    
+    
+    s3.setName("Carol");
+    s3.setId("19181716");
+    s3.setAddress("Mirpur");
+    s3.setCgpa(4.00);
+    
+    
+    System.out.println(s3.getName());
+    System.out.println(s3.getId());
+    System.out.println(s3.getAddress());
+    System.out.println(s3.getCgpa());
+  }
+}

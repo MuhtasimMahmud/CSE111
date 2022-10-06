@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Task7
+{
+  public static void main(String []args)
+  {
+    Scanner sc=new Scanner(System.in);
+    int a [] = new int[11];
+    for(int i=0; i<a.length;i++)
+    {
+      int x=sc.nextInt();
+      a[i]=x;
+      int counter = 0;
+      for(int j=0;j<i;j++)
+      {
+        if(x == a[j])
+        {
+          counter++;
+        }
+      }
+      if(counter >= 4)
+      {
+        System.out.println("This number is already entered 4 times /n so please give me another number");
+        i--;
+      }
+    }
+    for(int i=0;i<a.length;i++)
+    {
+      System.out.print(a[i]+" ");
+    }
+    sc.close();
+  }
+}

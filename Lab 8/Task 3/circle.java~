@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class circle extends Point
+{
+  System.out.println("Please give me the radius of circle");
+  double r = sc.nextDouble();
+  public circle()
+  {
+    super(r);
+  }
+  public double space()
+  {
+    double area = (3.1416)*(getRadius()*getRadius());
+    return area;
+  }
+  public String toString()
+  {
+    return "Enter radius of circle :"+getRadius()+" \nCreating a circle....done!"+"\nThe area of circle is "+space();
+  }
+}

@@ -1,0 +1,12 @@
+public class Child extends parent
+{
+  String address="//";
+  public parent()
+  {
+    //default
+  }
+  public void methodA()
+  {
+    System.out.println(address);
+  }
+}

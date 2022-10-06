@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Task1
+{
+  public S5tatic void main(String []args)
+  {
+    Scanner sc=new Scanner(System.in);
+    int array [] = new int[10];
+    for(int i=0;i<array.length ; i++)
+    {
+      int x = sc.nextInt();
+      a[i]=x;
+    }
+    for (int i=array .length-1 ; i>=0 ;i--)
+    {
+      System.out.print(a[i] + " ");
+    }
+  }
+}

@@ -1,0 +1,9 @@
+public class CSEStudent extends Student
+{
+  public CSEStudent()
+  {
+    super();
+    super.msg = "I want to transfer to CSE";
+  }
+  
+}
